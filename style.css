@@ -117,7 +117,7 @@ header > h1{
 
 #roll-button:hover{
 	background: blue;
-
+	cursor: pointer;
 
 }
 
@@ -140,11 +140,17 @@ header > h1{
 	background-size: 300%;
 }
 
-#player-dice-img{
-	/*background-position: bottom center; /* Visible coordinates in image */*/
+#player-dice-img1{
+	display: inline-block;
+}
+#player-dice-img2{
+	display: inline-block;
 }
 
-#computer-dice-img{
-	/*background-position: bottom right; /* Visible coordinates in image */*/
+#computer-dice-img1{
+	display: inline-block;
+}
+#computer-dice-img2{
+	display: inline-block;
 }
     
