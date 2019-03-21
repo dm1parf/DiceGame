@@ -102,11 +102,23 @@ header > h1{
 	width: 200px;
 	background: #42cef4;
 	
+	-webkit-transition: background 0.2s ease-out;
+	-moz-transition: background 0.2s ease-out;
+	-o-transition: background 0.2s ease-out;
+	-ms-transition: background 0.2s ease-out;
+	transition: background 0.2s ease-out;
+	
 	user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     -o-user-select: none;
+}
+
+#roll-button:hover{
+	background: blue;
+
+
 }
 
 .game-result-label{
@@ -116,3 +128,23 @@ header > h1{
 .game-result-score{
 	font-size: 20px;
 }
+
+.dice-image{
+	margin: auto;
+	background-image: url(images/dices.jpg);
+
+    height: 60px; /* Visible height */
+    width: 60px; /* Visible width */
+	border: 1px solid white;
+	border-radius: 8px;
+	background-size: 300%;
+}
+
+#player-dice-img{
+	/*background-position: bottom center; /* Visible coordinates in image */*/
+}
+
+#computer-dice-img{
+	/*background-position: bottom right; /* Visible coordinates in image */*/
+}
+    
